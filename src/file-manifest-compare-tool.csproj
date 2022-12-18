@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>FileManifestCompareTool</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Ryancdotnet.FileManifestCompareTool</RootNamespace>
+    <Nullable>enable</Nullable>
+    <Version>0.1.0</Version>
+    <Copyright>RyanC.net © 2022</Copyright>
+    <Authors>Ryan C</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MD5" Version="2.0.2" />
+    <PackageReference Include="semver" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
